@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Calculadora de Preço</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Calculadora de Preço</h1>
+        <label for="custo">Custo</label>
+        <input type="number" id="custo" name="custo" min="0" />
+        <label for="percentualImposto">Percentual de Imposto</label>
+        <input type="number" id="percentualImposto" name="percentualImposto" min="0" />
+        <button id="calcular">Calcular Preço</button>
+        <div id="resultado">
+            <p id="preco">Preço: <span>0</span></p>
+            <p id="imposto">Imposto: <span>0</span></p>
+        </div>
+    </div>
+</body>
+</html>
